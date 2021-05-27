@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pattaya&display=swap');
+
+body {
+	background-image: url(image/fondnew.jpg);
+}
+
+#main {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+#gauche {
+	border-right: 3px #1C9AB9 solid;
+	border-left: 3px #1C9AB9 solid;
+	min-width: 20em;
+	max-width: 25em;
+	text-align: center;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+#main h2 {
+	color: #1C9AB9;
+	font-family: 'Pattaya', sans-serif ;
+	font-size: 2em;
+	text-align: center;
+}
+
+#gauche h3 {
+	font-family: 'Merriweather', serif;
+}
+
+.ligne {
+	border : 1px #1C9AB9 solid;
+}
+
+#photo h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 3em;
+}
+
+.photo {	
+	height: 250px;
+	width: 210px;
+	border-radius: 100px;
+	margin-top: 2px;
+} 
+
+.miniature {	
+	height: 40px;
+	width: 40px;
+}
+
+#adresses {
+	line-height: 0.5em;
+}
+
+#personalite h3 {
+	line-height: 0.8em;
+}
+
+#personalite h3 {
+	text-align: left;
+	text-indent: 2em;
+}
+
+#droite h1 {
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 4em;
+}
+
+#hautDePage {
+	line-height: 0.8em;
+}
+
+#hautDePage h3 {
+	text-align: center;
+	color: #1C9AB9;
+	font-style: italic;
+	font-size: 1.2em;
+	line-height: 1em;
+}
+
+#droite {
+	margin-left: 1em;
+	max-width: 75em;
+}
+
+#droite h3 {
+	font-family: 'Merriweather', serif;
+}
+
+#competences B {
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+#experiences {
+	text-align: center;
+}
+
+#experiences table {
+	text-align: left;
+	margin: auto;
+}
+
+#experiences td {
+	text-indent: 7em;
+	line-height: 1.3em;
+}
+
+#formations {
+	text-align: center;
+}
+
+#formations table {
+	text-align: left;
+	margin: auto;
+}
+
+#formations td {
+	text-indent: 7em;
+	line-height: 1.3em;
+}
+
