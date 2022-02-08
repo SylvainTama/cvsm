@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pattaya&display=swap');
 
 body {
-	background-image: url(fondnew.jpg);
+	background-image: url(image/fondnew.jpg);
 }
 
 #main {
@@ -35,6 +35,7 @@ body {
 
 .ligne {
 	border : 1px #1C9AB9 solid;
+	margin: 1.9em;
 }
 
 #photo h1 {
@@ -70,7 +71,8 @@ body {
 #droite h1 {
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
-	font-size: 4em;
+	font-size: 3.5em;
+	margin-bottom: 1.1em;
 }
 
 #hautDePage {
